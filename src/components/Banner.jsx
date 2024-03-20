@@ -11,7 +11,7 @@ const Banner = () => {
     const typed = new Typed(el.current, {
       strings: [
         " Android Developer",
-        " Frontend Developer",
+        " Full Stack Developer",
         " Backend Developer",
       ], // Strings to display
       // Speed settings, try diffrent values untill you get good results
