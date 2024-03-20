@@ -20,10 +20,13 @@ const Expertise = () => {
             <div className="w-2/3 text-center space-y-4">
               <h1 className="text-4xl font-bold">I love these technologies</h1>
               <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic
-                autem facere molestias libero eaque praesentium, dignissimos
-                dolores, cum nisi rerum, modi corporis eligendi harum. Ut
-                provident saepe in et ipsum.
+                Proficiency in Java programming language and related frameworks
+                such as Spring Boot, Hibernate, and JPA. Strong understanding of
+                front-end technologies including HTML, CSS, JavaScript, and
+                modern JavaScript frameworks like React.js. frameworks like
+                Spring MVC or JAX-RS. Knowledge of relational database concepts,
+                SQL, and experience working with database systems such as MySQL,
+                JDBC .
               </p>
               <button className=" text-2xl px-4 py-2 bg-orange-500 rounded-full shadow-lg">
                 Hire Me
@@ -43,14 +46,16 @@ const Expertise = () => {
               </p>
 
               <p className="bg-gray-300 w-fit px-3 py-2 mt-2 rounded-full hover:bg-orange-500 cursor-pointer">
-                Hibernate(ORM Tool)
-              </p>
-
-              <p className="bg-gray-300 w-fit px-3 py-2 mt-2 rounded-full hover:bg-orange-500 cursor-pointer">
                 Spring Framework
               </p>
               <p className="bg-gray-300 w-fit px-3 py-2 mt-2 rounded-full hover:bg-orange-500 cursor-pointer">
-                Spring Boot Framework
+                Familiarity with Spring Boot Framework
+              </p>
+              <p className="bg-gray-300 w-fit px-3 py-2 mt-2 rounded-full hover:bg-orange-500 cursor-pointer">
+                Familiarity with Hibernate(ORM Tool)
+              </p>
+              <p className="bg-gray-300 w-fit px-3 py-2 mt-2 rounded-full hover:bg-orange-500 cursor-pointer">
+                SQL/JDBC
               </p>
               <p className="bg-gray-300 w-fit px-3 py-2 mt-2 rounded-full hover:bg-orange-500 cursor-pointer">
                 Swing
@@ -72,9 +77,6 @@ const Expertise = () => {
               </p>
               <p className="bg-gray-300 w-fit px-3 py-2 mt-2 rounded-full hover:bg-orange-500 cursor-pointer">
                 DSA
-              </p>
-              <p className="bg-gray-300 w-fit px-3 py-2 mt-2 rounded-full hover:bg-orange-500 cursor-pointer">
-                AWS Cloud
               </p>
 
               <p className="bg-gray-300 w-fit px-3 py-2 mt-2 rounded-full hover:bg-orange-500 cursor-pointer">

@@ -23,9 +23,9 @@ const Services = () => {
             <i className=" text-5xl fa-brands fa-aws"></i>
             <h1 className="text-4xl">Web Development</h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
-              veniam eius optio? Eveniet facilis dolorum quis exercitationem,
-              repudiandae sed dolores.
+              I am proficient in web development technology like JavaScript,
+              CSS(tailwind), HTML, and SQL and I am currently learning "React
+              Framework".
             </p>
             <button className="px-3 py-2 bg-orange-500 text-2xl rounded-full shadow-lg">
               Check
@@ -46,9 +46,9 @@ const Services = () => {
             <i className=" text-5xl fa-solid fa-server"></i>
             <h1 className="text-4xl">Backend Development</h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
-              veniam eius optio? Eveniet facilis dolorum quis exercitationem,
-              repudiandae sed dolores.
+              I am proficient in Backend Development technology like Java,
+              Servlet, JSP, C, C++, SQL and JDBC and I am currently learning
+              "Spring-Boot Framework and Hibernate".
             </p>
             <button className="px-3 py-2 bg-orange-500 text-2xl rounded-full shadow-lg">
               Check

@@ -46,11 +46,13 @@ const Banner = () => {
             I am <span className="font-bold underline" ref={el}></span>
           </h2>
           <p className="">
-            I am proficient in Java, Servlet, JSP, JavaScript, C, C++, CSS, HTML
-            & SQL, JDBC. Starting to learn Spring Framework. I can learn any
-            skill very quickly. Effective time management skills to meet
-            deadlines. I would like to start my career as an entry level
-            software engineer with a reputed firm driven by technology.
+            I am a BCA graduate with a strong passion for software development,
+            particularly in backend development roles and full stack development
+            roles. During my time at college and through self-study, I have
+            acquired a diverse skill set to enhance my career prospects in the
+            IT industry. My About section showcases the range of skills I have
+            honed, demonstrating my commitment to personal and professional
+            development.
           </p>
 
           <div className="icons-container flex space-x-5">
@@ -78,7 +80,7 @@ const Banner = () => {
           </div>
           <br />
           <a
-            className=" text-2xl     px-3  py-2 bg-orange-500  rounded-full shadow-lg"
+            className=" text-2xl px-3  py-2 bg-orange-500  rounded-full shadow-lg"
             href="/contact"
           >
             Contact Me
@@ -91,7 +93,7 @@ const Banner = () => {
       <div className=" w-full flex justify-center">
         {/* image */}
         <img
-          className="rounded-full my-2 shadow-lg h-40 w-40"
+          className="rounded-full my-2 shadow-lg h-40 w-40 h-auto w-auto"
           src={bannerImage}
         />
       </div>
