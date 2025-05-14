@@ -4,16 +4,26 @@ import bannerImage from "../assets/bi1.png";
 const About = () => {
   const [data, setData] = useState({
     image: bannerImage,
-    title: "Java Developer & Web Developer",
-    desc0: `I am proficient in C, OOPs, Java, Advance Java, Hibernate, Basic JDBC, SQL and also familiar with HTML/CSS/JavaScript. and Starting to learn "Spring Boot" and "React". I can learn any skill very quickly. Effective time management skills to meet deadlines. I would like to start my career as an entry level software engineer with a reputed firm driven by technology.`,
+    title: "Java full stack Developer & Web Developer",
+    desc0: `Motivated Java Full Stack Developer with hands-on experience in Spring Boot, RESTful APIs, MySQL, and HTML/CSS, JS. Passionate about building secure, scalable web applications and solving real-world problems using modern backend and frontend technologies. Eager to contribute to a dynamic development team and grow as a skilled software engineer.`,
     desc1: `[PERSONAL PROJECTS]`,
-    desc2: `1 - Note-Taker (Web Application) (Dec '23 – Feb '24)
-    Developed a dynamic web application for creating, editing, and deleting notes. Implemented user account creation, login, to-do list, and authentication.
-    Technologies Used: HTML, CSS, Bootstrap (frontend); Java (Servlet), JSP, JDBC, Hibernate (backend); MySQL (database)`,
-    desc3: `2 - Chat Application (Desktop App) (12/2022 - 01/2023)-
-    After completing Java I created a GUI desktop app project using Swing. I am using core Java concepts like threading, exception handling and networking concepts. Using this project we can easily chat between client to server and server to client.`,
-    desc4: `3 - Gym Web (Website) (2021)-
-    By using this website, you can give all the information about yourself online in Delhi Gym Club, register, login and create a profile. https://github.com/Rishisingh96/GymWebJava we have used frontend and backend technology and connected it to the server - HTML, CSS, Java(servlet), JSP, JDBC`,
+    desc2: `1 - RoomUnity - Room Partner Finder Web App (Web Application) (Apr 2025 – Present)
+    •	Developed RoomUnity, a secure web app for matching roommates using smart filters (location, food, occupation, college, religion, age etc.) and after finding suitable roommate then also show nearest PGs/Rooms /Hostels. This project addresses a real -world problem by helping users find ideal roommates based on their preferences.
+    •	Implemented OAuth2 login (Google/GitHub), email verification, and privacy-focused communication features (WhatsApp, call, email after match). 
+    •	Integrated real-time notifications, Cloudinary image uploads, Google Maps to enhancing user engagement and trust.
+    •	Tech Stack: Spring Boot, Spring Security, MySQL, Thymeleaf, Tailwind CSS, JavaScript – built with scalability, responsiveness, and user-first design.
+      `,
+    desc3: `2 - Electronic Store App |Backend RESTful API| (May 2024 - Nov 2024)-
+   •	Developed a e-commerce web Restful API with 6 key modules like User, Product, Category, Role, Order, Cart) using Spring Boot (backend) and React with Axios (frontend) for seamless integration.
+   •	Implemented JWT, OAuth (Google Login), refresh tokens, and RBAC to secure user authentication and admin functionalities like product and category management.
+   •	Features include product CRUD, filtering, sorting, cart operations, and Swagger for API documentation. Used Spring Boot, Hibernate/JPA and MySQL for data management and Basic React.
+
+`,
+    desc4: `3 - Digital Contact Manager Web App | Full Stack App |-
+    •	Developed a secure DCM Web Application with user authentication (email verification, Google & GitHub login) and cloud-based image storage using Cloudinary.
+    •	Integrated features like advanced search, pagination, Excel export, dark/light themes, and direct email with attachments.
+    •	Built using Spring Boot, Spring Security, Spring Data JPA, MySQL, Thymeleaf, JavaScript, and Tailwind CSS for a responsive user experience.
+`,
     desc5: `4 - Oasis Infobyte Internship - Java and Web Development (Nov '23 – March '24)`,
     desc6: `Achievements/Tasks (Java Development GitHub) - (Nov '23 – Dec '23)
     Projects: Online Reservation System, Online Examination, Number guessing game, ATM Interface
