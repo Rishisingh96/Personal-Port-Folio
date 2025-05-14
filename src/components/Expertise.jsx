@@ -8,6 +8,7 @@ const Expertise = () => {
     "J2EE (Servlet & JSP)",
     "Spring Framework (Core, MVC, AOP)",
     "Spring Boot",
+    "Spring Security",
     "Hibernate (ORM Tool)",
     "JPA",
     "MySQL",
@@ -21,12 +22,16 @@ const Expertise = () => {
     "Git & GitHub",
     "RESTful APIs",
     "Postman",
-    "Docker (Basics)",
-    "Cloud Deployment (Render/Railway)",
+    "Docker",
+    "Cloud Deployment(AWS EC2)",
+    "Jenkins CI CD Pipeline",
+    "Microservices",
+    "JUnit and Mockito",
+    "Node js"
   ]);
 
   return (
-    <div className="mt-2">
+    <div id="skills" className="mt-2">
       <h1 className="mb-16 text-5xl font-bold underline text-center">
         My Expertise
       </h1>

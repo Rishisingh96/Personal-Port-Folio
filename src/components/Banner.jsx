@@ -37,13 +37,31 @@ const Banner = () => {
             I am <span className="font-bold underline" ref={el}></span>
           </h2>
           <p>
-            I am a BCA graduate with a strong passion for software development,
-            particularly in backend development roles and full stack development
-            roles. During my time at college and through self-study, I have
-            acquired a diverse skill set to enhance my career prospects in the
-            IT industry. My About section showcases the range of skills I have
-            honed, demonstrating my commitment to personal and professional
-            development.
+            I am currently pursuing my Master of Computer Applications (MCA)
+            from SAGE University, Indore, with a strong foundation in backend
+            and full stack development. My journey in software development began
+            with a BCA degree, and since then, I’ve consistently expanded my
+            technical skills through academic projects, internships, and
+            self-learning. I have <strong>1+ years</strong> of hands-on
+            experience in developing scalable applications using{" "}
+            <strong>Core Java</strong>, <strong>J2EE</strong>, <strong>Spring Boot</strong>, {" "}
+            <strong>Hibernate</strong>, <strong>JPA</strong>,{" "}
+            <strong>Microservices</strong>, <strong>JUnit</strong>,{" "}
+            <strong>Mockito</strong>, and <strong>Thymeleaf</strong>. On the
+            front end, I build dynamic and responsive interfaces using{" "}
+            <strong>React.js</strong>, <strong>Tailwind CSS</strong>,{" "}
+            <strong>Bootstrap</strong>, and modern{" "}
+            <strong>JavaScript (ES6+)</strong>. I’m proficient in working with{" "}
+            <strong>MySQL</strong> databases, building{" "}
+            <strong>RESTful APIs</strong>, and deploying applications on the
+            cloud using platforms like <strong>AWS EC2</strong>. I’m also
+            comfortable using <strong>Git</strong>, <strong>Postman</strong>,{" "}
+            <strong>Docker</strong>, and{" "}
+            <strong>Jenkins CI/CD pipelines</strong> for version control, API
+            testing, and automation. Passionate about continuous learning and
+            growth, I’m committed to building high-quality software solutions
+            and contributing effectively as a full stack Java developer in a
+            forward-thinking organization.
           </p>
 
           <div className="icons-container flex space-x-5">

@@ -23,7 +23,7 @@ const Services = () => {
   ]);
 
   return (
-    <div className="main-container py-14">
+    <div  id="Service" className="main-container py-14">
       <h1 className="text-5xl font-bold text-center underline">My Services</h1>
       <div className="services-container space-y-8 md:space-y-0 md:flex md:flex-wrap md:justify-center md:-mx-4 mt-12">
         {services.map((service) => (

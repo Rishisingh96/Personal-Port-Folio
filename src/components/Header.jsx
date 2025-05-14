@@ -10,17 +10,22 @@ const Header = () => {
   };
 
   const menuLinks = [
-    { title: "Home", link: "/home", id: 1 },
-    { title: "About", link: "/about", id: 2 },
-    { title: "Skills", link: "/skills", id: 3 },
-    { title: "Portfolio", link: "/portfolio", id: 4 },
-    { title: "Contact", link: "/contact", id: 5 },
+    { title: "Home", link: "#home", id: 1 },
+    { title: "About", link: "#about", id: 2 },
+    { title: "Skills", link: "#skills", id: 3 },
+    { title: "Service", link: "#Service", id: 4 },
+    { title: "Contact", link: "#contact", id: 5 },
   ];
 
   return (
     <header className="border-b bg-gray-100 py-4 px-6">
       <div className="flex justify-between items-center">
-        <h1 className="text-xl font-bold">{brandName}</h1>
+
+        <div className="flex items-center space-x-2">
+  <img src="./public/RishiLogo.png" alt="Logo" className="w-8 h-8 rounded-full" />
+  <h1 className="text-xl font-bold">{brandName}</h1>
+</div>
+
         <button className="block lg:hidden" onClick={toggleMenu}>
           <svg
             className="w-6 h-6"
