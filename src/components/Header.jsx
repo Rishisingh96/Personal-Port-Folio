@@ -1,5 +1,6 @@
 // Header Component
 import React, { useState } from "react";
+// import LogoImg from "../assets/RishiLogo.png";
 
 const Header = () => {
   const [brandName, setBrandName] = useState("Rishi Singh");
@@ -20,11 +21,14 @@ const Header = () => {
   return (
     <header className="border-b bg-gray-100 py-4 px-6">
       <div className="flex justify-between items-center">
-
         <div className="flex items-center space-x-2">
-  <img src="./public/RishiLogo.png" alt="Logo" className="w-8 h-8 rounded-full" />
-  <h1 className="text-xl font-bold">{brandName}</h1>
-</div>
+          <img
+            src="./RishiLogo.png"
+            alt="Logo"
+            className="w-8 h-8 rounded-full"
+          />
+          <h1 className="text-xl font-bold">{brandName}</h1>
+        </div>
 
         <button className="block lg:hidden" onClick={toggleMenu}>
           <svg
@@ -58,11 +62,12 @@ const Header = () => {
           </ul>
         </nav>
         <a
-          href="./public/RishiResume.pdf"
+          // href="./public/RishiResume.pdf"
+          href="./RishiResume.pdf"
           download="RishiResume.pdf"
           className="py-2 px-4 bg-orange-500 hover:bg-orange-600 text-white rounded-full shadow-lg"
         >
-          Download CV
+          Download My Resume
         </a>
       </div>
     </header>
